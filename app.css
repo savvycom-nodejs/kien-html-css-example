@@ -1,3 +1,113 @@
 body{
-    margin-top: 10px !important;
+    margin-top: 10px;
+}
+.blue-line{
+    border-bottom: 4px solid rgb(98, 167, 232);
+    margin: -11px 0 26px 0;
+}
+.baner-favorite{
+    margin-top: -30px;
+}
+.banner-item-img img{
+   width: 140px;
+   min-height: 40%;
+   margin-bottom: 10px;
+}
+.banner-item h5{
+    margin-left: -54px;
+}
+.container-title{
+    text-align: center;
+    color: rgb(117, 243, 243);
+    margin: 30px 0;
+}
+.container img{
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+}
+.container-text{
+    position: absolute;
+    /* text-align: center; */
+    margin: -8% 0 0 20%;
+    color: #fff;
+    font-weight: 400;
+}
+.table-striped th{
+    text-align: center;
+    color: rgb(37, 142, 37) ;
+}
+.table-striped td{
+    color: goldenrod;
+    text-align: center;
+}
+.container-fluid-footer{
+    background: rgb(27, 135, 145);
+    color: #fff;
+    text-align: center;
+}
+.container-fluid-footer-text{
+    margin: 10px 0;
+}
+@media only screen and (min-width: 360px){
+    .baner-favorite-text{
+        color: goldenrod;
+        margin-top: 30px;
+    }
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+        border-radius: 30%;
+        margin-top: -18px;
+    }
+    .banner-item{
+        display: flex;
+    }
+    .banner-item h5{
+        margin-left: 10px;
+    }
+    .container-title{
+        font-size: 2rem;
+    }
+    .container-text {
+        margin: -16% 0 0 10%;
+        font-weight: 300;
+    }
+    .container-item1{
+        margin-bottom: 20px;
+    }
+    .table-striped{
+        font-size: 1rem;
+    }
+    .container-fluid-footer{
+        /* width: 100%; */
+    }
+    .container-fluid-footer-text{
+        margin: 0px 0 -12px 0;
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    ul.nav {
+        margin-left: -26px;
+    }
+    .navbar-right{
+        margin-top: -76px;
+        margin-right: -28px;
+    }
+    .baner-favorite-text{
+        font-size: 2.4rem;
+    }
+    .banner-item-img img{
+        width: 84%;
+    }
+    .banner-item h5{
+        margin-left: -33px;
+    }
+    .container-text {
+        margin: -16% 0 0 17%;
+    }
+    .table-striped{
+        width: 100%;
+    }
 }
